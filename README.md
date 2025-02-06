@@ -31,7 +31,7 @@ This repository contains the source code and documentation for a Unity-based gen
 ### Python Script
 - **`webpagemng.py`**
   - **Function:** Automates user interactions with the Sonauto.ai platform using Chrome WebDriver. This script logs into a temporary personal account (specific account name and password removed for anonymity; please open the code and insert your own account to run), submits the prompt file, retrieves the generated lyrics, and plays the music on the webpage.
-- **Note:** This Python script needs to be converted into an exe file using Pyinstaller and renamed as "demo3.exe" to run in the Unity program. 
+- **Note:** This Python script needs to be transmitted into an exe file and renamed as "demo3.exe" to run in the Unity program. 
 
 
 ---
@@ -62,7 +62,6 @@ To run the project on another computer, ensure the following tools and libraries
 4. Ensure Python and Selenium are installed for running the `webpagemng.py` script:
    ```bash
    pip install selenium
-5. Convert webpagemng.py into demo3.exe using Pyinstaller
-6. Replace the ChromeDriver path in webpagemng.py with the path to your local ChromeDriver installation.
-7. Run the Unity project and select emojis to create music.
-8. The generated music will be played automatically, and the lyrics will scroll on the screen.
+5. Replace the ChromeDriver path in webpagemng.py with the path to your local ChromeDriver installation.
+6. Run the Unity project and select emojis to create music.
+7. The generated music will be played automatically, and the lyrics will scroll on the screen.
